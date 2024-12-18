@@ -371,7 +371,7 @@ class Linux {
           commandQueue.add(
             LinuxCommand(
               command:
-                  "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -S $appCode --noconfirm",
+                  "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -S --needed --noconfirm $appCode",
               userId: 0,
               environment: {},
             ),
@@ -555,7 +555,7 @@ class Linux {
             LinuxCommand(
               userId: 0,
               command:
-                  "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -R $appCode --noconfirm",
+                  "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -Rs --noconfirm $appCode",
             ),
           );
         }
@@ -685,9 +685,9 @@ class Linux {
 
   static Future<bool> isPacmanPackageAvailable(String appCode) async {
     String output = await runCommand(
-        "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -Ss $appCode");
-    return output.contains("community/$appCode") ||
-        output.contains("extra/$appCode");
+        "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -Si $appCode",
+        environment: {"LC_ALL": "C"});
+    return !output.contains("was not found");
   }
 
   /// returns the source under which the Flatpak is available, otherwise empty String
@@ -1162,7 +1162,7 @@ class Linux {
         commandQueue.add(LinuxCommand(
           userId: 0,
           command:
-              "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -S --noconfirm vlc gstreamer libdvdcss libdvdread libdvdnav ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly",
+              "${getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -S --needed --noconfirm vlc gstreamer libdvdcss libdvdread libdvdnav ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly",
         ));
         break;
       default:

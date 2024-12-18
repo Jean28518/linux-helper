@@ -292,7 +292,7 @@ class ActionHandler {
       Linux.commandQueue.add(LinuxCommand(
           userId: 0,
           command:
-              "${Linux.getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -S $pkg --noconfirm"));
+              "${Linux.getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -S --needed --noconfirm $pkg"));
       Navigator.push(
         context,
         MaterialPageRoute(
@@ -309,7 +309,7 @@ class ActionHandler {
       Linux.commandQueue.add(LinuxCommand(
           userId: 0,
           command:
-              "${Linux.getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -R $pkg --noconfirm"));
+              "${Linux.getExecutablePathOfSoftwareManager(SOFTWARE_MANAGERS.PACMAN)} -Rs --noconfirm $pkg"));
       Navigator.push(
           context,
           MaterialPageRoute(

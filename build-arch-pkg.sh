@@ -1,6 +1,6 @@
 # Build bundle
 VERSION="$( cat version )"
 
-sed -i "s/pkgver=.*/pkgver=\"$VERSION\"/" PKGBUILD
+sed -i "s/pkgver=.*/pkgver=$VERSION/" PKGBUILD
 
-makepkg -s --skipchecksums
+makepkg -s

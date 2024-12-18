@@ -40,7 +40,7 @@ bash ./build-rpm.sh
 # You can only do this on an arch based distro
 bash ./build-arch-pkg.sh
 # To Install:
-makepkg -s --skipchecksums --install
+sudo pacman -U linux-assistant-*.pkg.tar.zst
 ```
 
 ## Run as flatpak

@@ -3,6 +3,7 @@ import jessentials
 import jfolders
 import jfiles
 from check_home_folder_rights import check_home_folder_rights
+from arch_checkupdates import arch_checkupdates
 
 
 
@@ -15,8 +16,7 @@ def get_additional_sources():
         print("yayinstalled")
 
 def get_available_updates():
-    jessentials.run_command("pacman -Sy", False, False, {'DEBIAN_FRONTEND': 'noninteractive'})
-    lines = jessentials.run_command("pacman -Qu", False, True)
+    lines = arch_checkupdates()
     for line in lines:
         print(f"upgradeablepackage: {line}")
 
