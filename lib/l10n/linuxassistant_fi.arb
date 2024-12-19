@@ -1,0 +1,822 @@
+{
+ "@@locale": "fi",
+ "@@last_modified": "2022-11-17T17:31:16.074",
+@@käännetty":2024-10-12",
+ "helloWorld": "Hei maailma!",
+ "enterASearchTerm": "Anna hakutermi...",
+ "securityCheckDescription": "Pidä tietokoneesi suojaus ajan tasalla."
+ "warpinatorDescription": "Lähetä tiedostoja nopeasti paikallisverkon kautta. Linuxiin, Androidiin, iOS:iin ja Windowsiin.",
+ "securityCheck": "Turvatarkistus",
+ "afterInstallation": "Ensimmäiset vaiheet asennuksen jälkeen",
+ "afterInstallationDescription": "Asenna linux-koneesi tarpeidesi mukaan."
+ "openX": "Avaa",
+ "searchInWebFor": "Hae verkosta",
+ "lookForOnlineResults": "Etsi online-tuloksia...",
+ "sendFeedback": "Lähetä palautetta",
+ "clear": "Tyhjennä",
+ "loading": "Ladataan...",
+ "preparingSearch": "Valmistellaan hakua...",
+ "analysingSystemSecurity": "Analysoidaan järjestelmän turvallisuutta...",
+ "additionalSoftwareSources": "Lisäohjelmistolähteet",
+ "securityCheckFailedBecauseNoRoot": "Se ei toiminut. Tarvitset pääkäyttäjän oikeudet suorittaaksesi suojaustarkistuksen.",
+ "cancel": "Peruuta",
+ "retry": "Yritä uudelleen",
+ "backToSearch": "Takaisin hakuun",
+ "reload": "Lataa uudelleen",
+ "analyzingSystemScurity": "Analysoidaan järjestelmän turvallisuutta...",
+ "päivitykset": "Päivitykset",
+ "systemIsUpToDate": "Hienoa! Järjestelmäsi on ajan tasalla.",
+ "xPackagesShouldBeUpdated": "Paketit tulee päivittää.",
+ "homeFolder": "Kotikansio",
+ "homeFolderRightsOkay": "Kotikansiosi oikeudet ovat kunnossa. Muut käyttäjät eivät näe tiedostojasi.",
+ "homeFolderRightsNotOkay": "Kotikansiosi ei ole suojattu. Muut käyttäjät voivat nähdä tiedostosi.",
+ "networkSecurity": "Verkon suojaus",
+ "noFirewallRecognized": "Järjestelmässäsi ei tunnisteta palomuuria.\\nPalomuuria suositellaan tietokoneille, joissa on Internet-yhteys.",
+ "firewallIsRunning": "Palomuurisi on toiminnassa. Hienoa työtä!",
+ "password": "Salasana",
+ "firewallIsInactive": "Palomuurisi ei ole aktiivinen. Palomuuria suositellaan tietokoneille, joissa on Internet-yhteys.",
+ "sshFoundOnYourComputer": "Tietokoneeltasi löytyi SSH-palvelin. Tietokoneesi voi olla käytettävissä ulkopuolelta. Poista ssh-server, jos et tarvitse sitä."
+ "noFail2BanFound": "Tietokoneeltasi ei löytynyt fail2ban-instanssia. Sen avulla tietokoneesi on immuuni ssh brute force -hyökkäyksille."
+ "xrdpRunningOnYourComputer": "Xrdp on käynnissä tietokoneellasi. On suositeltavaa poistaa asennus, jos et todella tarvitse sitä.",
+ "additionalSoftwareSourcesDetected": "Joitakin lisäohjelmistolähteitä löytyi. Nämä ovat mahdollisesti vaarallisia.\\nJos et tarvitse tietoturvapäivityksiä näistä, on suositeltavaa poistaa ne käytöstä.",
+ "noAdditionalSoftwareSourcesFound": "Hyvä! Muita ohjelmistolähteitä ei löytynyt.",
+ "changePasswordDescription": "Vaihda nykyisen käyttäjän salasana",
+ "userProfile": "Käyttäjäprofiili",
+ "changeUserProfile": "Muuta käyttäjätietoja",
+ "systemInformation": "Järjestelmätiedot",
+ "jakelu": "Jakelu",
+ "versio": "Versio",
+ "desktop": "Työpöytä",
+ "language": "Kieli",
+ "seuraava": "Seuraava",
+ "selectYourDistribution": "Valitse jakelu",
+ "selectYourDesktop": "Valitse työpöytäsi",
+ "isTheRecognizedSystemCorrect": "Onko tunnistettu järjestelmäsi oikea?",
+ "noIWantToChange": "Ei, haluan muuttaa",
+ "yes": "Kyllä",
+ "recognizingSystem": "Tunnistaa järjestelmä...",
+ "yourLinuxAssistant": "Sinun. Linux. Assistant.",
+ "linuxAssistantLongDescription": "Linux Assistant on jakeluriippumaton ja suunniteltu auttamaan ja opastamaan sinua päivittäisessä käytössäsi. Syötä vain muutama avainsana hakukenttään ja löydä mitä haluat! Linux Assistant sisältää hyödyllisiä pikakuvakkeita tiedostoihin, kansioihin ja sovelluksiin sekä myös on myös linkkejä asetuksiin ja esimerkiksi mukana tuleva PC-turvatarkistus."
+ "welcomeToYourLinuxMachine": "Tervetuloa uuteen linux-koneesi!",
+ "afterInstallationGreetingDescription": "Seuraavien minuuttien aikana määrität Linux-koneesi tarpeidesi mukaan.",
+ "letsStart": "Aloitetaan!",
+ "includeBasicSystemInformation": "Sisällytä järjestelmän perustiedot",
+ "setUpXWithRecommendedSettings": "Asennus",
+ "setUpXWithRecommendedSettingsPart2": "suositelluilla asetuksilla?",
+ "manualConfiguration": "Manuaalinen konfigurointi",
+ "afterInstallationManualConfigurationDescription": "Poistu tästä rutiinista ja hallitse kaikkia tietokoneesi muutoksia."
+ "automaticConfiguration": "Automaattinen määritys",
+ "applyConfiguration": "Käytä ohjelmiston kokoonpanoa",
+ "thisProcessCouldTakeManyMinutesDependingSoftwareChosed": "Tämä prosessi voi kestää useita minuutteja riippuen valitusta ohjelmistokokoonpanosta...",
+ "selectSpecificActionsOnTheNextSite": "Valitse tietyt automaattiset toiminnot seuraavalla sivulla.",
+ "installMultimediaCodecs": "Asenna multimediakoodekit",
+ "installMultimediaCodecsDescription": "Asenna lisää omia multimediakoodeja videoiden ja musiikin toistamista varten."
+ "automaticSnapshots": "Automatic Snapshots",
+ "automaticSnapshotsDescription": "Määritä automaattiset tilannekuvat ajansiirrolla. Timeshift määritetään kahteen kuukausittaiseen automaattiseen tilannekuvaan on": "Määritä automaattiset tilannekuvat ajansiirrolla. Timeshift määritetään kahteen kuukausittaiseen automaattiseen tilannevedostukseen juuriosiolla. Se ei varmuuskopioi henkilökohtaisia ​​tiedostojasi."
+ "automaticNvidiaDriverInstallation": "Automaattinen Nividia-Driver-asennus",
+ "automaticNvidiaDriverInstallationDesciption": "Kaikki suositellut ohjaimet asennetaan.",
+ "automaticUpdateManagerConfiguration": "Automatic Update Manager Configuration",
+ "feedbackPlaceholder": "Puuttuuko sinulta hakutulos? Mitä haet? Onko sinulla parannusehdotuksia?...",
+ "automaticUpdateManagerConfigurationDescription": "Automaattiset päivitykset ja (jos mukana) ylläpito määritetään."
+ "welcomeToYourNewSystem": "Tervetuloa uuteen järjestelmääsi!",
+ "automaticConfigurationIsRunningDescription": "Järjestelmäsi määrittää ja käyttää ohjelmistokokoonpanoasi. Tämä prosessi voi kestää useita minuutteja riippuen valitsemistasi toiminnoista ja ohjelmistoista...",
+ "browserSelection": "Selainvalinta",
+ "firefoxDescription": "Mozillan avoimen lähdekoodin selain keskittyen yksityisyyteen."
+ "chromiumDescription": "Avoimen lähdekoodin selain. Ilmainen Google Chromen perusta.",
+ "braveDescription": "Avoimen lähdekoodin selain keskittyen yksityisyyteen."
+ "chromeDescription": "Googlen oma selain."
+ "thunderbirdDescription": "Avoimen lähdekoodin sähköpostiohjelma Mozillalta.",
+ "jitsiDescription": "Avoimen lähdekoodin videoneuvottelutyökalu.",
+ "elementDescription": "Avoimen lähdekoodin viestintätyökalu, joka perustuu matriisiprotokollaan."
+ "signalDescription": "Avoimen lähdekoodin messenger. Toimii vain älypuhelinsovelluksen kanssa.",
+ "discordDescription": "Yhteisön oma chat-ohjelmisto",
+ "zoomDescription": "Omallinen konferenssiohjelmisto.",
+ "teamsDescription": "Omallinen tiimiviestintäohjelmisto.",
+ "communicationSoftware": "viestintäohjelmisto",
+ "flatpakIsNotInstalled": "Flatpakia ei ole asennettu järjestelmääsi.",
+ "flatpakDescription": "Helppo pääsyyn moniin suosittuihin sovelluksiin Flatpak on erittäin suositeltavaa. Flatpak on uusi apuohjelma paketinhallintaan Linuxille. Se tarjoaa hiekkalaatikkoympäristön, jossa sovellukset voivat toimia erillään muusta järjestelmästä. Sitomalla Flathub (suurin arkisto flatpakeille) saat käyttöösi yli 1800 erilaista Linux-sovellusta. Haittapuolena Flatpaks vaatii enemmän levytilaa.
+ "skip": "Ohita",
+ "settingUpFlatpak": "Asenna Flatpak",
+ "officeSelection": "Office Selection",
+ "libreOfficeDescription": "Avoimen lähdekoodin Office Suite Document Foundationilta. Erinomainen avoimeen asiakirjamuotoon (.odt, .ods, .odp).",
+ "onlyOfficeDescription": "Avoimen lähdekoodin Office Suite. Sopii Microsoftin asiakirjamuodolle (.docx, .xls, .ppt).",
+ "wpsOfficeDescription": "Oma Office Suite. Sopii Microsoftin asiakirjamuodolle (.docx, .xls, .ppt).",
+ "includeSearchTermAndResults": "Sisällytä hakutermi ja hakutulokset",
+ "submit": "Lähetä",
+ "thankYouForTheFeedback": "Kiitos palautteestasi!",
+ "feedbackSentSuccessfully": "Palautteesi lähetettiin kehittäjille onnistuneesti.",
+ "close": "Sulje",
+ "sendingFeedbackFailed": "Palautteen lähettäminen epäonnistui.",
+ "sendingFeedback": "Lähetetään palautetta...",
+ "startAfterInstallationRoutine": "Aloita tietokoneen alkuasetus",
+ "timeToSetupYourComputer": "Tietokoneen asennuksen aika",
+ "timeToSetupYourComputerDescription": "Määritä linux-koneesi tarpeidesi mukaan."
+ "activateHotkey": "Aktivoi pikanäppäin",
+ "openLinuxAssistantFaster": "Avaa Linux Assistant nopeammin."
+ "openLinuxAssistantFasterDescription": "Voit avata Linux Assistantin näppäimillä {modifier} + <Q>.\nTämä on erittäin suositeltavaa tuottavuuden maksimoimiseksi linuxissa.",
+ "@openLinuxAssistantFasterDescription": {
+ "paikkamerkit": {
+ "muuntaja" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "yesSetUpHotkey": "Kyllä, asetusten pikanäppäin",
+ "introduction": "Introduction",
+ "theFollowingContentCanBeSearched": "Voit etsiä seuraavaa sisältöä:",
+ "sovellukset": "Sovellukset",
+ "applicationSearchDescription": "Etsi kaikki suosikkisovelluksesi ja käynnistä ne sekunnin murto-osassa.",
+ "folders": "Kansiot",
+ "folderSearchDescription": "Linux Assistant tarkistaa kaikki tärkeät kansiosi ja tarjoaa ne myös tulosluettelossasi."
+ "recentFiles": "Viimeaikaiset tiedostot",
+ "recentFilesDescription": "Niin kauan kuin järjestelmäsi tallentaa äskettäin käytetyt tiedostot, voit löytää nämä ja myös tähdellä merkityt tiedostosi."
+ "browserBookmarks": "Selainselaimesi kirjanmerkit",
+ "browserBookmarksDescription": "Löydä suosikkisivustosi, jos merkitsit ne kirjanmerkkeiksi verkkoselaimessasi.",
+ "specialFunctions": "Linux-Assistantin erikoistoiminnot",
+ "specialFunctionsDescription": "Aloita turvatarkastus tai asennuksen jälkeinen palvelu ja myös monet muut pienet rutiinit, jotka helpottavat päivittäistä linux-käyttöäsi. Nämä on esitetty hakupalkin alla radomisoidussa järjestyksessä."
+ "hint": "Vihje",
+ "youCanOpenThisWindowBySearchingForIntroduction": "Voit avata tämän sivuston uudelleen hakemalla "Johdatus Linuxiin""description": "",
+ "tyyppi": "teksti"
+ },
+ "removableDevicesWarning": "Löydettiin {removableDevices} irrotettavaa tallennuslaitetta/(osiota). Jos et tällä hetkellä tarvitse niitä, on suositeltavaa poistaa ne turvallisuussyistä ja näiden laitteiden terveydestä.",
+ "@removableDevicesWarning": {
+ "paikkamerkit": {
+ "removableDevices" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "removableDevicesPass": "Siirrettäviä tallennuslaitteita ei havaittu.",
+ "swapsPass": "Järjestelmäsi käyttää swap-tilaa. Sinun ei tarvitse tehdä mitään tälle asialle.",
+ "swapsWarning": "Järjestelmässäsi ei ole sivutusmuistia. Jos muisti on täynnä, järjestelmälläsi ei ole enää mahdollisuutta vaihtaa sitä. Lisää järjestelmääsi joko swap-tiedosto tai swap-osio.",
+ "topMemoryProcesses": "Tällä hetkellä eniten muistia vaativat prosessit",
+ "topCPUPprocesses": "Tällä hetkellä eniten laskentaa vaativat prosessit",
+ "cpuUsage": "CPU:n käyttö",
+ "memoryUsage": "RAM-muistin käyttö",
+ "prosessi": "Prosessi",
+ "runtime": "Suoritusaika",
+ "memoryAndStorage": "Muisti ja tallennus",
+ "applyUpdatesSinceRelease": "Päivitä järjestelmä uusimpaan versioon",
+ "applyUpdatesSinceReleaseDescription": "Nykyisen {distro}-version julkaisusta lähtien päivityksiä voi olla saatavana. Ota nämä päivitykset käyttöön.",
+ "@applyUpdatesSinceReleaseDescription": {
+ "paikkamerkit": {
+ "distro" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "minutes": "minutes",
+ "tunnit": "tunnit",
+ "days": "days",
+ "linuxAssistantKeyboardShortcut": "Linux Assistantin pikanäppäin",
+ "setUpLinuxAssistantKeyboardShortcut": "Avaa Linux Assistant nopeasti mistä tahansa määrittämällä näppäimistön yhdistelmä {modifier} + <Q>."
+ "@setUpLinuxAssistantKeyboardShortcut": {
+ "paikkamerkit": {
+ "muuntaja" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "update": "Päivitä",
+ "aNewVersionIsAvailable": "Uusi versio on saatavilla!",
+ "doYouWantToUpdateNow": "Uudet ominaisuudet odottavat sinua. Haluatko päivittää Linux-Assistantin nyt? Tämä kestää yleensä vain muutaman sekunnin."
+ "later": "Myöhemmin",
+ "updateNow": "Päivitä nyt",
+ "linuxAssistantIsUpdating": "Linux-Assistant päivittää itseään. Sen jälkeen on suositeltavaa käynnistää sovellus uudelleen.",
+ "fix": "Korjaa",
+ "hardInfoDescription": "Järjestelmätiedot ja vertailutyökalu",
+ "installX": "Asenna {app}",
+ "@installX": {
+ "paikkamerkit": {
+ "sovellus" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "installingXDescription": "Asennetaan {app}...\nSinun on avattava {app} sen jälkeen erikseen.",
+ "@installingXDescription": {
+ "paikkamerkit": {
+ "sovellus" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "redshiftDescription": "Suodattaa sinistä valoa vähentääkseen silmien rasitusta."
+ "redshiftIsInstalledAlready": "Redshift on jo asennettu.\nAvaa Redshift itsenäisesti järjestelmävalikosta.",
+ "asetukset": "Asetus",
+ "searchSettings": "Hakuasetukset",
+ "on": "Päällä",
+ "off": "Pois",
+ "includeApplications": "Sisällytä sovellukset."
+ "includeBasicFolders": "Sisällytä peruskansiot.",
+ "includeRecentlyUsedFilesAndFolders": "Sisällytä äskettäin käytetyt tiedostot ja kansiot.",
+ "includeFavoriteFilesAndFolderBookmarks": "Sisällytä suosikkitiedostot ja kansion kirjanmerkit.",
+ "includeBrowserBookmarks": "Sisällytä selaimen kirjanmerkit.",
+ "shutdown": "Sammutus",
+ "shutdownDescription": "Sammuta Linux-koneesi nyt tai aseta sille ajoitus.",
+ "shutdownIn": "Sammutus sisään",
+ "exit": "Poistu",
+ "exitDescription": "Sulje Linux-Assistant.",
+ "appearance_settings": "Ulkoasuasetukset",
+ "darkThemeEnabled": "Tumma teema (uudelleenkäynnistys vaaditaan)",
+ "mainColorSetting": "Pääväri (uudelleenkäynnistys vaaditaan)",
+ "secondaryColorSetting": "Toissijainen väri (uudelleenkäynnistys vaaditaan)",
+ "colorfulBackground": "Värillinen tausta",
+ "theFollowingCommandsWillBeExecuted": "Seuraavat komennot suoritetaan",
+ "command" : "Komento",
+ "showCommands": "Näytä komennot",
+ "hideCommands": "Piilota komennot",
+ "description": "Kuvaus",
+ "root": "Juuri",
+ "ei": "Ei",
+ "selfLearningSearch": "Itseoppiva haku",
+ "updateSystemDescription": "Päivitä Linux-koneesi ja kaikki sovellukset (päivitykset).\nTämä prosessi voi kestää muutaman minuutin."
+ "featureOverview" : "Ominaisuuden yleiskatsaus",
+ "powerMode": "Virtatila","powerModeDescription": "Vaihda virransäästö- ja suorituskykytilan välillä.",
+ "powerSaver": "virransäästötila",
+ "performance": "suorituskykytila",
+ "balanced": "balansoitu tila",
+ "Activate": "Aktivoi",
+ "aktiivinen": "Aktiivinen",
+ "installPowerProfilesDeamonDescription": "Virtatilan vaihtamiseen tarvitaan power-profiles-deamon. Haluatko asentaa tämän?",
+ "folderRecursionDepth" : "Kansion rekursion syvyys",
+ "shutdownAfterwards": "Sammuta Linux jälkeenpäin",
+ "versionOfLinuxAssistant": "Linux Assistantin versio",
+ "urls": "URL-osoite",
+ "urlsDescription": "Anna URL-osoite ja avaa se oletusselaimessasi.",
+ "packageWillBeInstalled": "Pakettisi asennetaan hetken kuluttua...",
+ "thisApplicationWillBeRemoved": "Tämä sovellus poistetaan.",
+ "uninstallingXDescription": "Poistetaan {app}...",
+ "@uninstallingXDescription": {
+ "paikkamerkit": {
+ "sovellus" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "uninstallApp": "Poista {app}",
+ "@uninstallApp": {
+ "paikkamerkit": {
+ "sovellus" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "uninstallAppWarning": "Haluatko todella poistaa sovelluksen {app}?\nJärjestelmä ei ehkä toimi kunnolla jälkeenpäin.\nPoista vain itse asentamasi ohjelmat."
+ "@uninstallAppWarning": {
+ "paikkamerkit": {
+ "sovellus" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "welcome": "Tervetuloa!",
+ "flathubPermissionsDescription": "Aloitamiseen tarvitaan vain kaksi lisävaihetta.\nJotta Linux-Assistant toimisi, se tarvitsee lisäasetuksia, joita ei voi määrittää oletusarvoisesti flathub.org-osoitteen vuoksi.\nLisäasetusten avulla Linux-Assistant voi käyttää Linuxi ja esim. hallita ohjelmistoja.\nLinux-Assistant on kuitenkin teknisesti rajoitettu, joten järjestelmän hallinta voi tapahtua vain luvallasi.\n\nSyötä seuraava komento päätteeseen ja paina Enter-näppäintä täysin ok."
+ "pleaseRestartLinuxAssistant": "Sen jälkeen Linux-Assistant on käynnistettävä uudelleen kerran. Poistu Linux-Assistantista ja käynnistä se välittömästi uudelleen. Nähdään pian!",
+ "cleanDiskspace": "Tyhjennä levytila",
+ "cleanDiskspaceDescription": "Puhdista levytila ​​poistamalla vanhat paketit ja välimuistit."
+ "puhdas": "Puhdas",
+ "cleaningDiskspace": "Siivotaan levytilaa...",
+ "ilmainen": "Ilmainen",
+ "cleanX": "Puhdista {app}",
+ "@cleanX": {
+ "paikkamerkit": {
+ "sovellus" : {}
+ },
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "removeSoftware": "Poista ohjelmisto",
+ "remove": "Poista",
+ "back": "Takaisin",
+ "analyseDiskspace": "Analysoi levytila",
+ "allBiggestFolders": "Kaikki suurimmat kansiot",
+ "automaticCleanup": "Automaattinen puhdistus",
+ "automaticCleanupDescription": "Tyhjennä tallennustila automaattisesti poistamalla väliaikaiset tiedostot ja pakettivälimuistit. Myös roskakorit tyhjennetään.",
+ "diskUsage": "Levyn käyttö",
+ "settingUpFirewall": "Määritä palomuuri...",
+ "fixPackageManager": "Korjaa paketin hallinta",
+ "fixPackageManagerDescription": "Eikö päivityksiä tai asennuksia voi enää suorittaa? Kokeile paketinhallinnan automaattista korjausta.",
+ "executeInTerminal": "Suorita terminaalissa",
+ "setupSnap": "Asenna Snap",
+ "setupSnapDescription": "Asenna Snap ja Snap Store asentaaksesi monia muita sovelluksia.\nSen jälkeen suositellaan tietokoneen uudelleenkäynnistystä.",
+ "vivaldiDescription": "Oma selain, joka keskittyy yksityisyyteen ja moniin mukautusvaihtoehtoihin."
+ "makeAdministrator": "Tee nykyisestä käyttäjästä järjestelmänvalvoja",
+ "makeAdministratorDescription": "Lisää nykyinen käyttäjä 'sudo'-ryhmään saadaksesi pääkäyttäjän oikeudet. Pääkäyttäjän salasana vaaditaan tätä varten.\nSen jälkeen suositellaan tietokoneen uudelleenkäynnistämistä.",
+ "yayInstalled": "Yay löydettiin. Yay on AUR-apuohjelma, joka helpottaa AUR-pakettien asentamista. AUR on yhteisön arkisto, jossa yhteisö ylläpitää monia paketteja, jotka voivat olla haitallisia.",
+ "openSoftwareCenter": "Avaa ohjelmistokeskus",
+ "openSoftwareCenterDescription": "Avaa Ohjelmistokeskus asentaaksesi lisäsovelluksia/sovelluksia."
+ "disableCdromSource": "Poista CD-ROM-lähde käytöstä",
+ "disableCdromSourceDescription": "Debian-asennuksen jäänne. Poista CDROM-lähde käytöstä virheilmoituksien välttämiseksi.",
+ "grubConfiguration": "Grub-kokoonpano",
+ "grubConfigurationDescription": "Määritä Grub-käynnistyslatain. Tätä vaihetta suositellaan vain kokeneille käyttäjille.",
+ "grubVisible": "Käynnistysvalikko näkyvissä",
+ "enableBigFont": "Ota suuri fontti käyttöön",
+ "grubCountdown": "Automaattiseen käynnistykseen kuluva aika (sekunteina)",
+ "startLastBootedEntry": "Aloita viimeisin käynnistetty merkintä",
+ "save": "Tallenna",
+ "distribution_selection": "Jakelun valinta",
+ "copyCommands": "Kopioi komennot",
+ "errorThisDidntWork": "Se ei toiminut.",
+ "complete": "Täydellinen",
+ "@helloWorld": {
+ "paikkamerkit": {},
+ "description": "Perinteinen vastasyntyneen ohjelmoijan tervehdys",
+ "tyyppi": "teksti"
+ },
+ "@enterASearchTerm": {
+ "paikkamerkit": {},
+ ""@AfterInstallation": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@afterInstallationDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@openX": {
+ "paikkamerkit": {},
+ "description": "avoin kansio/ avaa tiedosto/, ...",
+ "tyyppi": "teksti"
+ },
+ "@searchInWebFor": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@lookForOnlineResults": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@sendFeedback": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@tyhjennä": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@loading": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@preparingSearch": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@analysingSystemSecurity": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@additionalSoftwareSources": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@securityCheckFailedBecauseNoRoot": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@peruuta": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@yritä uudelleen": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@backToSearch": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },"@networkSecurity": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@noFirewallRecognized": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@firewallIsRunning": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@salasana": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@firewallIsInactive": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@sshFoundOnYourComputer": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@noFail2BanFound": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@xrdpRunningOnYourComputer": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@additionalSoftwareSourcesDetected": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@noAdditionalSoftwareSourcesFound": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@changePasswordDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@käyttäjäprofiili": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@changeUserProfile": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@järjestelmätiedot": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@jakelu": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@versio": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@desktop": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@kieli": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@seuraava": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@selectYourDistribution": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@selectYourDesktop": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@isTheRecognizedSystemCorrect": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@noIWantToChange": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@kyllä": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@recognizingSystem": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@yourLinux Assistant": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@linuxAssistantLongDescription": {
+ "paikkamerkit": {},
+ "description": "kuvaus aloitusnäytössä",
+ "tyyppi": "teksti"
+ },
+ "@welcomeToYourLinuxMachine": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@afterInstallationGreetingDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@letsStart": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@includeBasicSystemInformation": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@setUpXWithRecommendedSettings": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@setUpXWithRecommendedSettingsPart2": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },"@manualConfiguration": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@afterInstallationManualConfigurationDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticConfiguration": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@applyConfiguration": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@thisProcessCouldTakeManyMinutesDependingSoftwareChosed": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@selectSpecificActionsOnTheNextSite": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@installMultimediaCodecs": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@installMultimediaCodecsDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticSnapshots": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticSnapshotsDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticNvidiaDriverInstallation": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticNvidiaDriverInstallationDesciption": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticUpdateManagerConfiguration": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@feedbackPlaceholder": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticUpdateManagerConfigurationDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@welcomeToYourNewSystem": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@automaticConfigurationIsRunningDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@browserSelection": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@firefoxDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@chromiumDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@chromeDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@thunderbirdDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@jitsiDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@elementDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@discordDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@zoomDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@teamsDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@viestintäohjelmisto": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@flatpakIsNotInstalled": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@flatpakDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@ohita": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@settingUpFlatpak": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@officeSelection": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@libreOfficeDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@onlyOfficeDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@wpsOfficeDescription": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@includeSearchTermAndResults": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@lähetä": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@thankYouForTheFeedback": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@feedbackSentSuccessfully": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@close": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@sendingFeedbackFailed": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@sendingFeedback": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ }
+}
+ "@reload": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@analyzingSystemScurity": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@päivitykset": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@systemIsUpToDate": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@xPackagesShouldBeUpdated": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@homeFolder": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@homeFolderRightsOkay": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
+ "@homeFolderRightsNotOkay": {
+ "paikkamerkit": {},
+ "description": "",
+ "tyyppi": "teksti"
+ },
